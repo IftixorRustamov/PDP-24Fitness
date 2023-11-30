@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+} 
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+  
+li a:hover:not(.active) {
+ background-color: #111;
+}
+
+.logoname_li{
+    font-size: 20px;
+}
+    
+
+.navbarBUTTONS {
+    text-align: right;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+
+.navbarbutton {
+    background-color: orangered;
+    height: 45px;
+    width: 100px;
+    border: 1px solid white ;
+    border-radius: 10%;
+    margin-top: 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.navbarbutton a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarbutton:hover{
+    background-color: #ff8c00;
+    text-decoration: none;
+}
+
+.intropage{
+    background-image:  url(https://images.unsplash.com/photo-1554344728-77cf90d9ed26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzA2fHxmaXRuZXNzfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    padding: 100px 0;
+   padding-bottom: 60px;
+}   
+
+.imessage{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.intro_list{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.class_ul{  
+    margin:0;
+    padding: 120px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+}
+
+.class_li{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 40px 30px;
+    background-color: #333;
+    color: white;
+}
+
+.courses{
+    justify-content: center;
+    align-items: center;
+}
+
+.courses_h1{
+    text-align: center;
+    font-size: 80px;
+    border-bottom: 7px solid orangered;
+    border-top: 5px solid black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.courses_h2{
+    text-align: center;
+    font-size: 40px;
+    background-color: #333;
+    color: white;
+    border-bottom: 7px solid orangered;
+}
+
+.courses_select{
+    justify-content: center;
+    align-items: center;
+}
+
+.courses_ul{
+    text-align: center;
+    gap: 15px;
+}
+
+.courses_img{
+    height: 270px;
+    width: 310px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.courses_li p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.see_all_courses {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}   
+
+.see_all_courses:hover{
+    color: orangered;
+    box-shadow: #111;
+}
+
+.trainers_h1{
+    text-align: center;
+    font-size: 80px;
+    border-bottom: 7px solid orangered;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    background-color: white;
+    
+}
+
+.trainers_ul{
+    text-align: center;
+    font-size: 40px;
+    background-color: #333;
+    color: white;
+    border-bottom: 7px solid orangered;
+}
+
+.trainers_part{
+    justify-content: center;
+    align-items: center;
+}
+
+.trainers_ul{
+    text-align: center;
+    gap: 15px;
+}
+
+.trainerimg{
+    height: 320px;
+    width: 340px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.trainers_li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.certificate_ul{
+    text-align: center;
+    font-size: 40px;
+    background-color: whitesmoke;
+    color:#111;
+    border-bottom: 7px solid orangered;
+}
+
+.certificate_img{
+    height: 500px;
+    width: 340px;
+    text-align: center;
+}
+
+.feedback_div{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.placeholder_comment{
+    width: 500px;
+    height: 30px;
+
+}
+
+.click_button{
+    background-color: orangered;
+    height: 30px;
+    width: 80px;
+    border-radius: 20%;
+    color: white;
+    
+}
+
+.click_button:hover{
+    background-color: red;
+}
+
+.send_button_div{
+    margin-left: 420px;
+}
+
+.footer{
+    margin-top: 60px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+}
+
+.locationmap{
+    margin-top: 20px;
+}
+
+.socialimg{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+}
+
+.socialimg:hover{
+    background-color: black;
+}
+
+.whole_page{
+    background-color: #333;
+}
+
+.f_p_div{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+
+}
+
+.f_div{
+    text-align: center;
+    font-size: 80px;
+    border-bottom: 7px solid orangered;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.f_image{
+    margin-top: 20px;
+    border-radius: 10%;
+    border: orangered 3px solid;
+}
+
+.reg_div{
+    text-align: center;
+    margin-top: 5px;
+    background-color: #333;
+    padding-top: 200px;
+}
+.text{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-style: none;
+    border: 2px solid orangered;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+}
+
+.reg_button{
+    margin: 30px;
+    width: 52%;
+    height: 50px;
+    border-radius: 20px ;
+    color: #111;
+    background-color: orangered;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.reg_button:hover{
+    background-color: red;
+}
+
+
+
+
+
+
